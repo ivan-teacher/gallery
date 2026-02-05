@@ -1,1 +1,23 @@
+:root {
+  --fon-color: #151419;
+  --color-accent: #f56e0f;
+  --color-addition: #1b1b1e;
+  --text-color: #878787;
+}
 
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--fon-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#Content{
+    width: 70%;
+    height: 50%;
+    background-color: var(--text-color);
+}
