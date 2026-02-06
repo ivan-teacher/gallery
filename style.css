@@ -16,8 +16,23 @@ body{
     align-items: center;
     position: relative;
 }
-#Content{
-    width: 70%;
-    height: 50%;
+#Frame{
+    width: 90%;
+    height: 90%;
     background-color: var(--text-color);
+}
+#Header{
+    width: 100%;
+    height: 15%;
+}
+#Content{
+    width: 90%;
+    height: 75%;
+}
+#Footer{
+    width: 50%;
+    height: 10%;
+}
+#Foto{
+
 }
