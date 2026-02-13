@@ -27,6 +27,32 @@ body{
 #Header{
     width: 97%;
     height: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+}
+#menu{
+    display: none;
+}
+#Menu{
+    width: 5%;
+    aspect-ratio: 1 / 1;
+    background-color: var(--color-accent);
+}
+#ContainerMenu{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: opacity 0.65s ease-in-out;
+}
+#menu:checked ~ #ContainerMenu{
+    opacity: 1;
+    visibility: visible;
 }
 #Content{
     width: 95%;
