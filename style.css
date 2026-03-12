@@ -72,7 +72,9 @@ body{
     padding: 0;
 }
 .foto:hover{
-  position: absolute;
+    position: absolute;
+    background-color: var(--fon-color);
+    height: 89%;
 }
 #Footer{
     width: 50%;
