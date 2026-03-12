@@ -72,6 +72,7 @@ body{
     padding: 0;
 }
 .foto:hover{
+  position: absolute;
 }
 #Footer{
     width: 50%;
