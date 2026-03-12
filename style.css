@@ -57,8 +57,19 @@ body{
 #Content{
     width: 95%;
     height: 86%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
 }
 .foto{
+    background-color: var(--color-addition);
+    height: 30%;
+    aspect-ratio: 1 / 1;
+    margin: 0;
+    padding: 0;
 }
 #Footer{
     width: 50%;
