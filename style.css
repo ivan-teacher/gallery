@@ -71,7 +71,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.foto:click{
+.foto:hover{
     position: absolute;
     background-color: var(--fon-color);
     height: 89%;
