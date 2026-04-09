@@ -41,6 +41,7 @@ body{
     background-color: var(--color-accent);
 }
 #ContainerMenu{
+    background-color: var(--fon-color);
     position: absolute;
     padding: 0;
     margin: 5% 0 0 0;
